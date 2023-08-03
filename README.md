@@ -1,4 +1,16 @@
 # T6-Survival
+A MW3 inspired Gamemode. Back in the days i spend days in this Mode.
+Then after Bo2 had his GSC breakthrough 10 Years or so ago i created an buggy shitty version of this.
+Old Link: https://nextgenupdate.com/forums/black-ops-2-gsc-mods-scripts/807231-game-mode-survival-v14a.html
+
+Now i got back into BO2 and completely rewrite from scratch.
+
+This is ment to be played on Plutonium T6 Multiplayer.
+I only give support for Server Mode but it should work on Private Game too.
+
+No need to set any Dvars but you can set the Dvar for bot difficulty.
+
+Upload on next Version.
 
 # ToDo (Top to Bottom Prio)
 ```
@@ -100,3 +112,5 @@ Initial Release v1.0:
 
 -Server Implementation
 ```
+
+Greetings
