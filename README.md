@@ -60,7 +60,8 @@ Fixxed:
 -FIX: Ammo refill for both weapons 
 -FIX: Max ammo after Bossrounds only for current Weapon (now for both)
 -FIX: KillHud now working the right way in Boss Rounds
--FIX: -Death and War Machine 
+-FIX: Death and War Machine
+-FIX: Round doesnt end when 2+ players each kill a bot at the same time
 ```
 
 # Changelog
