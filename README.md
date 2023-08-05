@@ -14,9 +14,8 @@ No need to set any Dvars but you can set the Dvar for bot difficulty.
 
 # ToDo (Top to Bottom Prio)
 ```
-FIX: -Round Respawn while whole intervall and not just on roundend
 FIX IMPORTANT: _weapon.gsc exceeded maximum number of parent server script variables / need attachment checker max 3 and check for invalid combos (didnt wanted to do that sadly need to crashes server)
-FIX: -buying health with damaged hp will add 100 on your current one
+
 -Knife kills rewarded with $80 instead of normal $40
 -Make Bosses look more like Bosses
 -Perma V-Sat Killsteak
@@ -27,6 +26,9 @@ FIX: -buying health with damaged hp will add 100 on your current one
 ```
 -Respawn at Round 10+ will be with $800. Buy 1x Health and 1 Weapon to not die instantly in high Rounds.
 -Revive and give Money to others not working anymore on yourself.
+-Fixxed: -buying health will now add +100 to max health and not current health
+-Fixxed: -Round Respawn while whole intervall and not just on roundend (moved the function form level to a self monitor)
+
 ```
 
 # Features added in next Version
