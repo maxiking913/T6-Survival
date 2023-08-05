@@ -27,6 +27,11 @@ No need to set any Dvars but you can set the Dvar for bot difficulty.
 -Vote to skip interval with more Players
 -Share Money with other Players - Costs $50 / Retrieve $50
 -Revive Player in Round $500
+```
+
+# Features in next Version
+```
+(Everything in "Currently in testing" for this Release)
 -Perk Shop
 
 Fixxed:
