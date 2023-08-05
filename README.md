@@ -14,9 +14,6 @@ No need to set any Dvars but you can set the Dvar for bot difficulty.
 
 # ToDo (Top to Bottom Prio)
 ```
--FIX: Ammo refill for both weapons (Disabled - causes weapon to lose Attachment)
--FIX: Max ammo after Bossrounds only for current Weapon currently (Disabled - causes weapon to lose Attachment)
--Perk Shop
 -Knife kills rewarded with $80 instead of normal $40
 -Make Bosses look more like Bosses
 -Perma V-Sat Killsteak
@@ -30,6 +27,11 @@ No need to set any Dvars but you can set the Dvar for bot difficulty.
 -Vote to skip interval with more Players
 -Share Money with other Players - Costs $50 / Retrieve $50
 -Revive Player in Round $500
+-Perk Shop
+
+Fixxed:
+-FIX: Ammo refill for both weapons (Disabled - causes weapon to lose Attachment)
+-FIX: Max ammo after Bossrounds only for current Weapon currently (Disabled - causes weapon to lose Attachment)
 ```
 
 # Changelog
