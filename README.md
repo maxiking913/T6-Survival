@@ -14,24 +14,31 @@ No need to set any Dvars but you can set the Dvar for bot difficulty.
 
 # ToDo (Top to Bottom Prio)
 ```
+FIX: -Round Respawn while whole intervall and not just on roundend
+FIX: -buying health with damaged hp will add 100 on your current one
 -Knife kills rewarded with $80 instead of normal $40
 -Make Bosses look more like Bosses
 -Perma V-Sat Killsteak
+
+
+FIX: -exceeded maximum number of parent server script variables ??? idk where this come from. i think its because someone bought invalid attachment combos to often
 ```
 
 # Currently in testing 
 (working but still not on live - lets call it PBE)
 ```
--Increased kills for Round to End. Also scaling now with each player and rescale if player quits
 -Respawn at Round 10+ will be with $800. Buy 1x Health and 1 Weapon to not die instantly in high Rounds.
--Vote to skip interval with more Players
--Share Money with other Players - Costs $50 / Retrieve $50
--Revive Player in Round $500
+-Revive and give Money to others not working anymore on yourself.
 ```
 
 # Features added in next Version
 ```
 (Everything in "Currently in testing" for this Release)
+-Increased kills for Round to End. Also scaling now with each player and rescale if player quits
+-Vote to skip interval (tested with more players)
+-Share Money with other Players - Costs $50 / Retrieve $50
+-Revive Player in Round $500
+
 -Perk Shop
 
 -Custom Perk:
