@@ -35,9 +35,17 @@ FIX IMPORTANT: _weapon.gsc exceeded maximum number of parent server script varia
 # Features added in next Version
 ```
 (Everything in "Currently in testing" for this Release)
+
+-Knife kills give $80
+
+-War & Death Machine Ammo costs $500 (No refill all Weapons aviable when they are in inventory)
+
 -Increased kills for Round to End. Also scaling now with each player and rescale if player quits
+
 -Vote to skip interval (tested with more players)
+
 -Share Money with other Players - Costs $50 / Retrieve $50
+
 -Revive Player in Round $500
 
 -Perk Shop
@@ -51,7 +59,8 @@ Fixxed:
 -Fix: Quick Ammo buy now doesnt buy 3 times in a row
 -FIX: Ammo refill for both weapons 
 -FIX: Max ammo after Bossrounds only for current Weapon (now for both)
--KillHud now working the right way in Boss Rounds
+-FIX: KillHud now working the right way in Boss Rounds
+-FIX: -Death and War Machine 
 ```
 
 # Changelog
