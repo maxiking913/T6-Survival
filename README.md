@@ -15,13 +15,11 @@ No need to set any Dvars but you can set the Dvar for bot difficulty.
 # ToDo (Top to Bottom Prio)
 ```
 FIX: -Round Respawn while whole intervall and not just on roundend
+FIX IMPORTANT: _weapon.gsc exceeded maximum number of parent server script variables / need attachment checker max 3 and check for invalid combos (didnt wanted to do that sadly need to crashes server)
 FIX: -buying health with damaged hp will add 100 on your current one
 -Knife kills rewarded with $80 instead of normal $40
 -Make Bosses look more like Bosses
 -Perma V-Sat Killsteak
-
-
-FIX: -exceeded maximum number of parent server script variables ??? idk where this come from. i think its because someone bought invalid attachment combos to often
 ```
 
 # Currently in testing 
