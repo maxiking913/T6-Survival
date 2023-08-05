@@ -29,14 +29,20 @@ No need to set any Dvars but you can set the Dvar for bot difficulty.
 -Revive Player in Round $500
 ```
 
-# Features in next Version
+# Features added in next Version
 ```
 (Everything in "Currently in testing" for this Release)
 -Perk Shop
 
+-Custom Perk:
+  More Money
+
+-Fast Buy Ammo @Essential Shop
+
 Fixxed:
 -FIX: Ammo refill for both weapons (Disabled - causes weapon to lose Attachment)
 -FIX: Max ammo after Bossrounds only for current Weapon currently (Disabled - causes weapon to lose Attachment)
+-KillHud now working theright way in Boss Rounds
 ```
 
 # Changelog
