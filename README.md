@@ -25,7 +25,7 @@ FIX IMPORTANT: _weapon.gsc exceeded maximum number of parent server script varia
 (working but still not on live - lets call it PBE)
 ```
 -Respawn at Round 10+ will be with $800. Buy 1x Health and 1 Weapon to not die instantly in high Rounds.
--Revive and give Money to others not working anymore on yourself.
+-Revive and give Money to others not working on yourself anymore .
 -Joining after Round 1 should trigger respawnmonitor
 -Fixxed: -buying health will now add +100 to max health and not current health
 -Fixxed: -Round Respawn while whole intervall and not just on roundend (moved the function form level to a self monitor)
@@ -48,9 +48,10 @@ FIX IMPORTANT: _weapon.gsc exceeded maximum number of parent server script varia
 -Fast Buy Ammo @Essential Shop
 
 Fixxed:
--FIX: Ammo refill for both weapons (Disabled - causes weapon to lose Attachment)
--FIX: Max ammo after Bossrounds only for current Weapon currently (Disabled - causes weapon to lose Attachment)
--KillHud now working theright way in Boss Rounds
+-Fix: Quick Ammo buy now doesnt buy 3 times in a row
+-FIX: Ammo refill for both weapons 
+-FIX: Max ammo after Bossrounds only for current Weapon (now for both)
+-KillHud now working the right way in Boss Rounds
 ```
 
 # Changelog
