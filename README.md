@@ -16,7 +16,6 @@ No need to set any Dvars but you can set the Dvar for bot difficulty.
 ```
 FIX IMPORTANT: _weapon.gsc exceeded maximum number of parent server script variables / need attachment checker max 3 and check for invalid combos (didnt wanted to do that sadly need to crashes server)
 
--Knife kills rewarded with $80 instead of normal $40
 -Make Bosses look more like Bosses
 -Perma V-Sat Killsteak
 ```
