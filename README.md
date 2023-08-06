@@ -24,9 +24,9 @@ No need to set any Dvars but you can set the Dvar for bot difficulty.
 # Currently in testing 
 (working but still not on live - lets call it PBE)
 ```
--Respawn at Round 10+ will be with $800. Buy 1x Health and 1 Weapon to not die instantly in high Rounds.
+-Respawn at Round 10+ will be with $800. (Only if you have less than $800. Will not be triggered if revived with self revive but will be triggered if revived by another player which costs $500)
 -Revive and give Money to others not working on yourself anymore .
--Joining after Round 1 should trigger respawnmonitor
+-Joining after Round 1 should trigger respawnmonitor (This fixxes the problem that you dont respawn when joining while intermission time is running)
 -Self Revive (can be bought in shop. If solo play you will get one free at the start of round 2 since round 1 is a init round and in round 1 connecting players will spawn and not be dead)
 -Fixxed: -buying health will now add +100 to max health and not current health
 -Fixxed: -Round Respawn while whole intervall and not just on roundend (moved the function form level to a self monitor)
