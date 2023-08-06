@@ -14,8 +14,8 @@ No need to set any Dvars but you can set the Dvar for bot difficulty.
 
 # ToDo (Top to Bottom Prio)
 ```
-FIX IMPORTANT: _weapon.gsc exceeded maximum number of parent server script variables / need attachment checker max 3 and check for invalid combos (didnt wanted to do that sadly need to crashes server)
-Drops like ammo/instakill/money
+-FIX IMPORTANT: _weapon.gsc exceeded maximum number of parent server script variables / need attachment checker max 3 and check for invalid combos (didnt wanted to do that sadly need to crashes server)
+-Drops like ammo/instakill/money
 
 -Make Bosses look more like Bosses
 -Perma V-Sat Killsteak
