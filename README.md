@@ -30,6 +30,7 @@ No need to set any Dvars but you can set the Dvar for bot difficulty.
 -Self Revive (can be bought in shop. If solo play you will get one free at the start of round 2 since round 1 is a init round and in round 1 connecting players will spawn and not be dead)
 -Fixxed: -buying health will now add +100 to max health and not current health
 -Fixxed: -Round Respawn while whole intervall and not just on roundend (moved the function form level to a self monitor)
+-Fixxed: Essential Shop Players Menu should now not show 1 Bot only Players
 
 ```
 
