@@ -32,11 +32,15 @@ No need to set any Dvars but you can set the Dvar for bot difficulty.
 -Fixxed: -Round Respawn while whole intervall and not just on roundend (moved the function form level to a self monitor)
 -Fixxed: Essential Shop Players Menu should now not show 1 Bot only Players
 
+-Fixxed: Rnadom Server Crash
+-Fixxed Bossround in higher rounds now end how they should and not stop the game
 ```
 
 # Features added in next Version
 ```
 (Everything in "Currently in testing" for this Release)
+
+-Balistic Knife and Added:Knife now Free in Weaponshop
 
 -Knife kills give $80 (Also scales with Money Perk)
 
