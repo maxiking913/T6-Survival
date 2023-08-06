@@ -27,6 +27,7 @@ FIX IMPORTANT: _weapon.gsc exceeded maximum number of parent server script varia
 -Respawn at Round 10+ will be with $800. Buy 1x Health and 1 Weapon to not die instantly in high Rounds.
 -Revive and give Money to others not working on yourself anymore .
 -Joining after Round 1 should trigger respawnmonitor
+-Self Revive (can be bought in shop. If solo play you will get one free at the start of round 2 since round 1 is a init round and in round 1 connecting players will spawn and not be dead)
 -Fixxed: -buying health will now add +100 to max health and not current health
 -Fixxed: -Round Respawn while whole intervall and not just on roundend (moved the function form level to a self monitor)
 
