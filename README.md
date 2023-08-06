@@ -18,7 +18,6 @@ No need to set any Dvars but you can set the Dvar for bot difficulty.
 -Drops like ammo/instakill/money
 
 -Make Bosses look more like Bosses
--Perma V-Sat Killsteak
 ```
 
 # Currently in testing 
