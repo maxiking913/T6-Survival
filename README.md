@@ -57,7 +57,8 @@ No need to set any Dvars but you can set the Dvar for bot difficulty.
 -Perk Shop
 
 -Custom Perk:
-  More Money
+  -More Money
+  -Perma UAV
 
 -Fast Buy Ammo @Essential Shop
 
@@ -70,6 +71,7 @@ Fixxed:
 -FIX: Round doesnt end when 2+ players each kill a bot at the same time
 -FIX: Last killed Bot before roundend and Bossbot name now visible in killfeed
 -FIX: Select Fire Mode not working
+-FIX: Instant Interval Vote bugged out the game
 ```
 
 # Changelog
