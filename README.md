@@ -63,6 +63,7 @@ Fixxed:
 -FIX: KillHud now working the right way in Boss Rounds
 -FIX: Death and War Machine
 -FIX: Round doesnt end when 2+ players each kill a bot at the same time
+-FIX: Last killed Bot before roundend and Bossbot name now visible in killfeed 
 ```
 
 # Changelog
