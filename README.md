@@ -10,26 +10,40 @@ I only give support for Server Mode but it should work on Private Game too.
 
 No need to set any Dvars but you can set the Dvar for bot difficulty.
 
-# Upload on next Version 1.5
+# Upload on next Version 1.5 (Current Game State):
+```
+After todays gamemode stress test im very happy with the current state. there were some random crashes (once every 3 rounds) except the following things: 
+-maps/mp/gametypes/_weapon.gsc exceeded maximum number of parent server script variables
+-maps/mp/gametypes/_battlechatter_mp.gsc: exceeded maximum number of parent server script variables
+
+Quote form a Plutonium Staff:
+Well the error means you ran out of child script variables. This happened because you have a child variable leak in one or multiple of your scripts.
+Unfortunately this isn't an easy issue to fix but to help you can use fed's t6-gsc-utils and look at the child variables dump it produces in the minidumps folder when such as an error occurs.
+This will give you an idea of what functions might be leaking child variables.
+To fix this in these functions you need to either end the old threads if you are spawning new ones or you need to clear old variables that you aren't using by setting them to be undefined.
+
+But in my case they come from basic game scriptfiles. Trying to do a workaround (maybe its because of bots kicking and respawning. idk if server "clears" the variables for bots when kicked. will be testet.)
+
+```
 
 # ToDo (Top to Bottom Prio)
 ```
--FIX IMPORTANT: _weapon.gsc exceeded maximum number of parent server script variables / need attachment checker max 3 and check for invalid combos (didnt wanted to do that sadly need to crashes server)
--Drops like ammo/instakill/money
+-FIX:when dead rebuy same weapon doenst work (you already own this weapon)
+-FIX:bug is self revive in bossround no drone
 
+-Drops like ammo/instakill/money
+-Perk to increase melee range
+-Perk 3rd weapon
+
+-FIX:bug lost weapon dying in bossround (happend once cant be replicated)
 -Make Bosses look more like Bosses
 ```
 
 # Currently in testing 
 (working but still not on live - lets call it PBE)
 ```
--Respawn at Round 10+ will be with $800. (Only if you have less than $800. Will not be triggered if revived with self revive but will be triggered if revived by another player which costs $500)
--Revive and give Money to others not working on yourself anymore .
--Joining after Round 1 should trigger respawnmonitor (This fixxes the problem that you dont respawn when joining while intermission time is running)
--Self Revive (can be bought in shop. If solo play you will get one free at the start of round 2 since round 1 is a init round and in round 1 connecting players will spawn and not be dead)
--Fixxed: -buying health will now add +100 to max health and not current health
--Fixxed: -Round Respawn while whole intervall and not just on roundend (moved the function form level to a self monitor)
--Fixxed: Essential Shop Players Menu should now not show 1 Bot only Players
+-Attachment checker (Need attachment checker max 3 and check for invalid combos (didnt wanted to do that sadly need to else crashes server))
+
 
 -Fixxed: Random Server Crash
 -Fixxed: Bossround in higher rounds now end how they should and not stop the game
@@ -38,6 +52,11 @@ No need to set any Dvars but you can set the Dvar for bot difficulty.
 # Features added in next Version
 ```
 (Everything in "Currently in testing" for this Release)
+-Reworked Intervall message & handler
+
+-Self Revive (can be bought in shop. If solo play you will get one free at the start of round 2 since round 1 is a init round and in round 1 connecting players will spawn and not be dead)
+
+-Respawn at Round 6+ will be with $1000. (Only if you have less than $1000. Also triggers if respawned by player)
 
 -Balistic Knife and Added:Knife now Free in Weaponshop
 
@@ -70,7 +89,13 @@ Fixxed:
 -FIX: Round doesnt end when 2+ players each kill a bot at the same time
 -FIX: Last killed Bot before roundend and Bossbot name now visible in killfeed
 -FIX: Select Fire Mode not working
--FIX: Instant Interval Vote bugged out the game
+-FIX: Instant Iinterval Vote bugged out the game
+-FIX: Revive and give Money to others not working on yourself anymore
+-FIX: Essential Shop Players Menu should now not show 1 Bot only Players
+-FIX: Buying health will now add +100 to max health and not current health
+-FIX: Joining after Round 1 should trigger respawnmonitor (This fixxes the problem that you dont respawn when joining while intermission time is running)
+-FIX: Round Respawn while whole intervall and not just on round end (moved the function form level to a self monitor)
+-FIX: Bossround in higher rounds now end how they should and not stop the game (Had sth to do with Max Ammo after Round)
 ```
 
 # Changelog
