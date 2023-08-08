@@ -33,10 +33,11 @@ But in my case they come from basic game scriptfiles. Trying to do a workaround 
 
 # ToDo (Top to Bottom Prio)
 ```
--Drops like ammo/instakill/money
--Perk to increase melee range
 -Perk 3rd weapon
+-Perk to increase melee range
+-Drops like ammo/instakill/money
 
+-FIX: boss max ammo
 -FIX:bug lost weapon dying in bossround (happend once cant be replicated)
 -Make Bosses look more like Bosses
 ```
@@ -44,18 +45,14 @@ But in my case they come from basic game scriptfiles. Trying to do a workaround 
 # Currently in testing 
 (working but still not on live - lets call it PBE)
 ```
--Attachment checker (Need attachment checker max 3 and check for invalid combos (didnt wanted to do that sadly need to else crashes server))
-
-
 -Fixxed: Random Server Crash
--Fixxed: Bossround in higher rounds now end how they should and not stop the game
--Fixxed: when dead rebuy same weapon doenst work (you already own this weapon)
--Fixxed: bug is self revive in bossround no drone
 ```
 
 # Features added in next Version
 ```
 (Everything in "Currently in testing" for this Release)
+-Attachment checker
+
 -Reworked Intervall message & handler
 
 -Changed various shop prices
@@ -101,7 +98,9 @@ Fixxed:
 -FIX: Buying health will now add +100 to max health and not current health
 -FIX: Joining after Round 1 should trigger respawnmonitor (This fixxes the problem that you dont respawn when joining while intermission time is running)
 -FIX: Round Respawn while whole intervall and not just on round end (moved the function form level to a self monitor)
--FIX: Bossround in higher rounds now end how they should and not stop the game (Had sth to do with Max Ammo after Round)
+ FIX: Bossround in higher rounds now end how they should and not stop the game (Had sth to do with Max Ammo after Round)
+-FIX: When dead rebuy same weapon doenst work
+-FIX: Bug where the Drone in Bossround is gone when self revive used
 ```
 
 # Changelog
