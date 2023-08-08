@@ -33,9 +33,6 @@ But in my case they come from basic game scriptfiles. Trying to do a workaround 
 
 # ToDo (Top to Bottom Prio)
 ```
--FIX:when dead rebuy same weapon doenst work (you already own this weapon)
--FIX:bug is self revive in bossround no drone
-
 -Drops like ammo/instakill/money
 -Perk to increase melee range
 -Perk 3rd weapon
@@ -52,6 +49,8 @@ But in my case they come from basic game scriptfiles. Trying to do a workaround 
 
 -Fixxed: Random Server Crash
 -Fixxed: Bossround in higher rounds now end how they should and not stop the game
+-Fixxed: when dead rebuy same weapon doenst work (you already own this weapon)
+-Fixxed: bug is self revive in bossround no drone
 ```
 
 # Features added in next Version
