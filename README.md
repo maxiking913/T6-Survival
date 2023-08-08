@@ -58,6 +58,8 @@ But in my case they come from basic game scriptfiles. Trying to do a workaround 
 (Everything in "Currently in testing" for this Release)
 -Reworked Intervall message & handler
 
+-Changed various shop prices
+
 -Self Revive (can be bought in shop. If solo play you will get one free at the start of round 2 since round 1 is a init round and in round 1 connecting players will spawn and not be dead)
 
 -Respawn at Round 6+ will be with $1000. (Only if you have less than $1000. Also triggers if respawned by player)
