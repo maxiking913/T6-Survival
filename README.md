@@ -22,6 +22,11 @@ Unfortunately this isn't an easy issue to fix but to help you can use fed's t6-g
 This will give you an idea of what functions might be leaking child variables.
 To fix this in these functions you need to either end the old threads if you are spawning new ones or you need to clear old variables that you aren't using by setting them to be undefined.
 
+His answer on my question: 
+When a player is kicked from the game or disconnects all of the variables directly attached to their script entity are removed. The scripts the error occurs in are meaningless.
+This error does not happen in the stock game under normal conditions. The script the error says it happened in is just the last time a variable was attempted to be allocated and failed.
+The error is in your code so read my previous comment on this post to debug this issue.
+
 But in my case they come from basic game scriptfiles. Trying to do a workaround (maybe its because of bots kicking and respawning. idk if server "clears" the variables for bots when kicked. will be testet.)
 
 ```
