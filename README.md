@@ -10,7 +10,7 @@ I only give support for Server Mode but it should work on Private Game too.
 
 No need to set any Dvars but you can set the Dvar for bot difficulty.
 
-# Upload on next Version 1.5 (Current Game State):
+# Upload on next Version 1.5 (Current Game State - Upload will be when the Variables Leak is fixxed):
 ```
 After todays gamemode stress test im very happy with the current state. there were some random crashes (once every 3 rounds) except the following things: 
 -maps/mp/gametypes/_weapon.gsc exceeded maximum number of parent server script variables
