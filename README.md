@@ -27,8 +27,7 @@ When a player is kicked from the game or disconnects all of the variables direct
 This error does not happen in the stock game under normal conditions. The script the error says it happened in is just the last time a variable was attempted to be allocated and failed.
 The error is in your code so read my previous comment on this post to debug this issue.
 
-But in my case they come from basic game scriptfiles. Trying to do a workaround (maybe its because of bots kicking and respawning. idk if server "clears" the variables for bots when kicked. will be testet.)
-
+Investigating this then i will release first verion since its stable
 ```
 
 # ToDo (Top to Bottom Prio)
