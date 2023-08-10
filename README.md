@@ -30,6 +30,9 @@ The error is in your code so read my previous comment on this post to debug this
 ```
 
 # Investigating state:
+NEW: I think i found it. will test it within next day but i played for 1 hour without any crashes in 1 game.
+
+Old:
 As it seems there are no variable leaks.
 ```
 child var allocations where count > 1
