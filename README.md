@@ -10,11 +10,12 @@ I only give support for Server Mode but it should work on Private Game too.
 
 No need to set any Dvars but you can set the Dvar for bot difficulty.
 
-# Upload on next Version 1.5 (Current Game State - Upload will be when the Variables Leak is fixxed):
+# Upload on next Version 1.5 (Current Game State 11.08.2023 - Upload will be when the Variables Leak is fixxed):
 ```
-After todays gamemode stress test im very happy with the current state. there were some random crashes (once every 3 rounds) except the following things: 
+After another gamemode stress test im very happy . All external crashes are fixxed the only thing i have to fight with is still this: 
 -maps/mp/gametypes/_weapon.gsc exceeded maximum number of parent server script variables
 -maps/mp/gametypes/_battlechatter_mp.gsc: exceeded maximum number of parent server script variables
+-maps/mp/bots/_bots.gsc: exceeded maximum number of parent server script variables
 
 Quote form a Plutonium Staff:
 Well the error means you ran out of child script variables. This happened because you have a child variable leak in one or multiple of your scripts.
@@ -26,10 +27,26 @@ His answer on my question:
 When a player is kicked from the game or disconnects all of the variables directly attached to their script entity are removed. The scripts the error occurs in are meaningless.
 This error does not happen in the stock game under normal conditions. The script the error says it happened in is just the last time a variable was attempted to be allocated and failed.
 The error is in your code so read my previous comment on this post to debug this issue.
-
-Investigating this then i will release first verion since its stable
 ```
 
+# Investigating state:
+As it seems there are no variable leaks.
+```
+child var allocations where count > 1
+
+total: 0, total calculated: 327
+```
+```
+child var allocations where count > 1
+
+total: 0, total calculated: 26782
+```
+```
+child var allocations where count > 1
+
+
+total: 0, total calculated: 30029
+```
 # ToDo (Top to Bottom Prio)
 ```
 -Perk 3rd weapon
@@ -44,6 +61,14 @@ Investigating this then i will release first verion since its stable
 # Currently in testing 
 (working but still not on live - lets call it PBE)
 ```
+-Bosses now sometimes has air support or grouns support:
+  -Air Support 20%
+  -Ground Support 20%
+  -Air and Ground Support 10% (Not before Round 10+)
+
+-3rd Weapon Perk
+-Added shop checks so only allies get the shop info and not bots (fixxed the random server crash)
+
 -Fixxed: Random Server Crash
 ```
 
