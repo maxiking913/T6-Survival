@@ -47,7 +47,7 @@ child var allocations where count > 1
 
 total: 0, total calculated: 30029
 ```
-Checking further now. Also made thread at [Plutonium]([https://www.google.com](https://forum.plutonium.pw/topic/32144/exceeded-maximum-number-of-parent-server-script-variables)) :
+Checking further now. Also made thread at [Plutonium](https://forum.plutonium.pw/topic/32144/exceeded-maximum-number-of-parent-server-script-variables):
 You can post there or write me here if you have suggestions or the idea to fix.
 
 
