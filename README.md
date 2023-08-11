@@ -56,11 +56,12 @@ You can post there or write me here if you have suggestions or the idea to fix.
 
 # ToDo (Top to Bottom Prio)
 ```
--Perk 3rd weapon
--Perk to increase melee range
+-PET SHOP - Perma Dog / Perma Hunter Killer
+-Perk (inc melee range,self revive+ - save everything including perks weapons etc after dead, golden knife / golden sniper - oneshot in non bossorunds / double dmg in bossrounds)
+-custom boss perks (money remover, no health recovery or other stuff)
 -Drops like ammo/instakill/money
 
--FIX: boss max ammo
+
 -FIX:bug lost weapon dying in bossround (happend once cant be replicated)
 -Make Bosses look more like Bosses
 ```
@@ -132,6 +133,7 @@ Fixxed:
  FIX: Bossround in higher rounds now end how they should and not stop the game (Had sth to do with Max Ammo after Round)
 -FIX: When dead rebuy same weapon doenst work
 -FIX: Bug where the Drone in Bossround is gone when self revive used
+-FIX: Boss max ammo
 ```
 
 # Changelog
