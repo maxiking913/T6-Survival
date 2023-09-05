@@ -10,27 +10,10 @@ I only give support for Server Mode but it should work on Private Game too.
 
 No need to set any Dvars but you can set the Dvar for bot difficulty.
 
-# Upload on next Version 1.5 (Current Game State 11.08.2023 - Upload will be when the Variables Leak is fixxed):
+# Upload on next Version 1.5 (Current Game State 5.09.2023 - Upload will be when the Variables Leak is fixxed):
 ```
-After another gamemode stress test im very happy . All external crashes are fixxed the only thing i have to fight with is still this: 
--maps/mp/gametypes/_weapon.gsc exceeded maximum number of parent server script variables
--maps/mp/gametypes/_battlechatter_mp.gsc: exceeded maximum number of parent server script variables
--maps/mp/bots/_bots.gsc: exceeded maximum number of parent server script variables
-
-Quote form a Plutonium Staff:
-Well the error means you ran out of child script variables. This happened because you have a child variable leak in one or multiple of your scripts.
-Unfortunately this isn't an easy issue to fix but to help you can use fed's t6-gsc-utils and look at the child variables dump it produces in the minidumps folder when such as an error occurs.
-This will give you an idea of what functions might be leaking child variables.
-To fix this in these functions you need to either end the old threads if you are spawning new ones or you need to clear old variables that you aren't using by setting them to be undefined.
-
-His answer on my question: 
-When a player is kicked from the game or disconnects all of the variables directly attached to their script entity are removed. The scripts the error occurs in are meaningless.
-This error does not happen in the stock game under normal conditions. The script the error says it happened in is just the last time a variable was attempted to be allocated and failed.
-The error is in your code so read my previous comment on this post to debug this issue.
+Came into Game LImitations. I have a workaround. will implement it some times next week but currently my time is limited.
 ```
-
-# Investigating state:
-NEW: I think i found it. will test it within next day but i played for 1 hour without any crashes in 1 game.
 
 Old:
 As it seems there are no variable leaks.
