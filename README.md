@@ -10,9 +10,9 @@ I only give support for Server Mode but it should work on Private Game too.
 
 No need to set any Dvars but you can set the Dvar for bot difficulty.
 
-# Upload on next Version 1.5 (Current Game State 5.09.2023 - Upload will be when the Variables Leak is fixxed):
+# Discontinued Sorry:
 ```
-Came into Game LImitations. I have a workaround. will implement it some times next week but currently my time is limited.
+Came into Game LImitations. No Workaround aviable.
 ```
 Checking further now. Also made thread at [Plutonium](https://forum.plutonium.pw/topic/32144/exceeded-maximum-number-of-parent-server-script-variables):
 You can post there or write me here if you have suggestions or the idea to fix.
